@@ -29,3 +29,55 @@ cuandoPasa('seleccionarArtista', ({ id, cantidad, codigoDescuento }) => {
 });
 
 iniciar();
+
+function calcularTotal(id: string, cantidadNum: number, codigoDescuento: string): number {
+  
+  let precio1: number=0
+   
+  if (id === "Sabrina"){
+precio1=1000
+}
+
+else if(id === "Kgatlw"){
+  precio1=700
+  }
+
+  else if(id === "Lali"){
+    precio1=500
+    }
+   
+   else if(id === "Magdalena"){
+      precio1=600
+      }
+
+    else if(id === "Viagra"){
+        precio1=400
+        }
+        else if(id === "Dillom"){
+          precio1=350
+          }
+          else if(id === "Marilina"){
+            precio1=200
+            }
+            else if(id === "Mugre"){
+              precio1=150
+              }
+  
+              if (codigoDescuento === "TIC10"){
+                precio1 = precio1 * 0.9;
+              }
+              
+              if (codigoDescuento === "TIC20"){
+                precio1 = precio1 * 0.8;
+              }
+
+              if (codigoDescuento === "DARIO"){
+                precio1 = precio1 * 0.5;
+              }
+  
+  
+  
+              return precio1;
+  
+}
+
