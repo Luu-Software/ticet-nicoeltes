@@ -32,34 +32,34 @@ iniciar();
 
 function calcularTotal(id: string, cantidadNum: number, codigoDescuento: string): number {
   
-  let precio1: number=0
+  let precio1: number = 0;
    
-  if (id === "Sabrina"){
+  if (id === "sabrina"){
 precio1=1000
 }
 
-else if(id === "Kgatlw"){
+else if(id === "kgatlw"){
   precio1=700
   }
 
-  else if(id === "Lali"){
+  else if(id === "lali"){
     precio1=500
     }
    
-   else if(id === "Magdalena"){
+   else if(id === "magdalena"){
       precio1=600
       }
 
-    else if(id === "Viagra"){
+    else if(id === "viagra"){
         precio1=400
         }
-        else if(id === "Dillom"){
+        else if(id === "dillom"){
           precio1=350
           }
-          else if(id === "Marilina"){
+          else if(id === "marilina"){
             precio1=200
             }
-            else if(id === "Mugre"){
+            else if(id === "mugre"){
               precio1=150
               }
   
